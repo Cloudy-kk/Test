@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Worthy Trip-Trivel you Like Style</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./fa/css/all.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.1/css/all.css" rel="stylesheet">
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="begin">
+        <div class="welcome">
+            <p>
+                <span> Welcome to Worthy Trip. 你可以<a href="#">登录</a>加入我们，或者你也可以以游客的身份浏览.</span>
+            </p>
+        </div>
+    </div>
+
+    <!-- 设置外部容器满屏 -->
+    <div class="topbar-wapper">
+        <!-- 设置内部居中容器 -->
+        <div class="topbar">
+            <!-- 设置左边的logo 和下拉栏的显示-->
+            <div class="logo">
+                <ul>
+                    <li class="img-logo"><a><img src="./img/飞机.png" alt=""></a></li>
+                    </li>
+                </ul>
+                <!-- 下拉框 -->
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Trivel you like
+                        <i class="fas fa-angle-down"></i> </button>
+
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#"><i class="fas fa-address-book"></i>&nbsp;&nbsp;My Trip</a>
+                        <a href="#"><i class="fas fa-compass"></i>&nbsp;&nbsp;Trip Guide</a>
+                        <a href="#"><i class="fas fa-user-edit"></i>&nbsp;&nbsp;Tourist Thoughts</a>
+                    </div>
+                </div>
+                <script src="./JS/Xiala.js"></script>
+            </div>
+            <!-- 设置右边导航栏 -->
+            <div class="Right-Wapper">
+                <div class="choice-list">
+
+                    <!-- 设置下拉框中的内容 -->
+                    <div class="sign">
+                        <a href="#">Sign Up</a>
+
+                        <div class="sign-box">
+                            <div class="textarea">
+                                <h2>你可以得到更优质和更划算的出行计划。</h2>
+                                <h4>You can get better quality and cost-effective travel plans</h4>
+                            </div>
+                            <div class="button-list">
+                                <button type="button" class="In1">登录</button>
+                                <button type="button" class="Up1">注册</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="choice"><a href="#">
+                            Tourist Thoughts</a>
+                    </div>
+
+                    <div class="choice"><a href="#">Trip Guide</a>
+                    </div>
+
+                    <div class="languish"><i class="fas fa-globe"></i><a href="#">
+                            Language
+                            <i class="fas fa-angle-down"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 设置中间的样式 -->
+    <div class="img-container">
+        <!-- 设置中间主要区域的内容 -->
+        <div class="main-container">
+            <!-- 设置左边表单区域 -->
+            <div class="select-form">
+                <div class="form">
+                    <ul class="s_tab">
+                        <li class="s_tab_current"><a href="#" style="color: #2577e3;"><i class="fas fa-door-open"></i>
+                                <b>hotel</b></a>
+                        </li>
+                        <li class="s_tab_current"><a href="#"><i class="fas fa-plane-departure"></i>
+                                <b>Flight</b></a>
+                        </li>
+                        <li class="s_tab_current"><a href="#"><i class="fas fa-car"></i>
+                                <b>Cars</b></a>
+                        </li>
+                        <li class="s_tab_current"><a href="#"><i class="fas fa-briefcase"></i>
+                                <b>Packages</b></a>
+                        </li>
+                        <li class="s_tab_current"><a href="#"><i class="fas fa-ticket-alt"></i>
+                                <b>Things</b></a>
+                        </li>
+
+                    </ul>
+                    <div class="search">
+                        <div class="hotel">
+                            <div class="s_title">
+                                <a class="current" href="#" style="color: #2577e3;">Domestic hotel</a>
+                                <a class="current" href="#">Foreign hotel</a>
+                                <a class="current" href="#">Homestay</a>
+                            </div>
+                            <div class="s_line">
+                            </div>
+
+                            <!-- 设置酒店选择下下面的搜索框 -->
+                            <form id="chinaHotelForm">
+                                <div class="s_item_cont">
+
+                                    <div class="s_item_cont1">
+                                        <!-- <i class="fas fa-map-marker-alt"></i> -->
+                                        <i class="fas fa-search"></i>
+                                        <input type="text" placeholder="Going To">
+                                    </div>
+
+                                    <div class="s_item_cont2">
+                                        <button><i class="far fa-calendar-alt"></i>
+                                            <a>Check In</a></button>
+                                    </div>
+
+                                    <div class="s_item_cont3">
+                                        <button><i class="far fa-calendar-alt"></i>
+                                            <a>Check Out</a></button>
+                                    </div>
+
+                                    <div class="s_item_cont4">
+                                        <button><i class="fas fa-user-friends"></i>
+                                            <a>Travelers</a></button>
+                                    </div>
+
+                                    <div class="s_item_cont5">
+                                        <button><i class="fas fa-bed"></i>
+                                            <a>Rooms</a></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 设置右边数据显示区域 -->
+            <div class="other-data">
+                <div class="select-data">
+                    <!-- 轮播图 -->
+                    <div class="continer">
+                        <ul class="list">
+                            <li class="item active">
+                                <a href="#"><img src="./img/31.jpg" alt="0"></a></li>
+                            <li class="item">
+                                <a href="#"><img src="./img/32.jpg" alt="1"></a></li>
+                            <li class="item">
+                                <a href="#"><img src="./img/33.jpg" alt="2"></a></li>
+                            <li class="item">
+                                <a href="#"><img src="./img/34.jpg" alt="3"></a></li>
+                        </ul>
+                        <ul class="pointList">
+                            <li class="point active" data-index='0'></li>
+                            <li class="point" data-index='1'></li>
+                            <li class="point" data-index='2'></li>
+                            <li class="point" data-index='3'></li>
+                        </ul>
+                        <button type="button" class="btn" id="goPre"><</button>
+                                <button type="button" class="btn" id="goNext">></button>
+
+                    </div>
+                    <script src="./JS/lunbotu.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="third">
+        <div class="t_mainbox">
+
+            <div class="t_mainbox_title">
+                <h2>Do you need any other help?</h2>
+            </div>
+
+            <div class="t_mainbox_1">
+                <a href="#"><i class="fas fa-calendar-times"></i>Change or cancel a trip</a>
+            </div>
+
+            <div class="t_mainbox_2">
+                <a href="#"><i class="fas fa-layer-group"></i>Use a Credit or a coupon</a>
+            </div>
+
+            <div class="t_mainbox_3">
+                <a href="#"><i class="fas fa-check-square"></i>Track your refund</a>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="forth">
+        <div class="forth_sale">
+
+            <div class="img_sale">
+                <a href="#"><img src="./img/2020BlackFriday.png" alt="Black-Friday-Sale"></a>
+            </div>
+            <!-- 右边的两个小图片选项 -->
+            <div class="forth_sale_bu">
+                <div class="first_sale">
+                    <a href="#"><img src="./img/phpuLbxb0_爱奇艺.jpg" alt=""
+                            style="width: 380px; height: 200px; opacity: 0.8; border-radius: 7px;"></a>
+
+                    <div class="forth_font">
+                        <h3>Great value hotel </h3>
+                        <span>Hotels during this time will be very cheap</span>
+                    </div>
+                </div>
+                <div class="second_sale">
+                    <a href="#"><img src="./img/30.png" alt="" style="width: 380px; height: 200px;opacity: 0.8;"></a>
+
+                    <div class="forth_font">
+                        <h3>Great value ticket</h3>
+                        <span>There will be super cheap air tickets during this time<sapn>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 设置大标题 -->
+    <div class="forth-title">
+        <span>Ideas For Your Next Trip</span>
+    </div>
+
+    <div class="fifth">
+
+        <div class="fifth_content">
+            <!-- 设置图片内容 -->
+            <div class="a-forth-constant">
+
+                <div class="a-forth-constant-img">
+                    <a href="#"><img src="./img/13.png" alt=""></a>
+                </div>
+                <div class="a-forth-constant-content">
+                    <div class="camp">
+                        <a href="#">
+                            <h1>Winter Ski Camp</h1>
+                        </a>
+                        <span> There are more than 450 ski resorts in the United States, and there are more than 1,000
+                            ski enthusiasts traveling with us. Come sign up and join us!</span>
+                    </div>
+                    <div class="scanp">
+                        <img src="./img/erWeima.png" alt="Winter Camp"
+                            style="width: 230px;opacity: 0.9;border-radius: 10px;">
+                        <span>Scan the QR code to register</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="ap-load">
+                <div class="ap_img">
+                <img src="./img/99.jpg" alt=""style="width:400px;height:200px">
+                </div>
+                <div class="ap_intro">
+                    <h2>Stay in the know with the Worthy Trip app</h2>
+                    <span>Get real-time notifications, view your trip details, and access mobile-only deals.</span>  
+                    <h3>Text yourself a download link</h3>
+                    
+                    <div class="ap-btn">
+                    <button type="button" class="ap-bbtn" id="code">Country code
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <input type="text" placeholder="Phone Number">
+                    <button type="button" class="ap-bbtn" id="getApp">Get App</button>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- 结尾 -->
+    <div class="end">
+        <div class="end-first">
+            <span>Worthy Trip-Trip You Like Style </span>
+            <a href="#"> See our trival options</a>
+        </div>
+        <div class="end-second">
+            <ul>
+                <li><a href="#">About Us</a>
+                </li>
+                <li><a href="#">Adversting</a>
+                </li>
+                <li><a href="#"> Privacy Policy</a>
+                </li>
+                <li><a href="#">Teams of China</a>
+                </li>
+                <li><a href="#">Traval Blog</a>
+                </li>
+                <li><a href="#">Support</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="end-img">
+            <a href="#"><img src="./img/飞机.png" alt="" style="width:50px;"></a>
+
+        </div>
+        <div class="end-span">
+            <span>Worthy Trip, Inc. is not responsible for content on external Web sites. © 2020 Worthy Trip, Inc, an
+                Security Brigade Group Company. All rights reserved.
+            </span>
+        </div>
+        <div class="team">
+            <span> Security Brigade Group</span>
+        </div>
+    </div>
+
+</body>
+
+</html>
