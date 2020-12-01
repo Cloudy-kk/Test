@@ -1,0 +1,50 @@
+/* 公共样式表 */
+.cleafix::before,
+.cleafix::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+body{
+    min-width: 1280px;
+    /* color: rgb(110, 108, 108); */
+    font-family:"Gen Jyuu Gothic LP Regular"," Arial", "sans-serif"
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+ul,
+ol{
+    list-style: none;
+}
+ul li{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: rgb(126, 125, 125);
+}
+a:visited{
+    color:  rgb(126, 125, 125);
+}
+a:hover{
+    color:  rgb(72, 130, 236);
+}
+a:active{
+    color: rgb(72, 130, 236);
+}
+button{
+    -webkit-border-radius:6px;/*适配以webkit为核心的浏览器(chrome、safari等)*/
+    -moz-border-radius:6px;/*适配firefox浏览器*/
+    -ms-border-radius:6px;/*适配IE浏览器*/
+    -o-border-radius:6px;/*适配opera浏览器*/
+    border-radius:6px;/*适配所有浏览器*/
+    border: 1px solid #C6C4C4;
+    /* outline: none; */
+}
